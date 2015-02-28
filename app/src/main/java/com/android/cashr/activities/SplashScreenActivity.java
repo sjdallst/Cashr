@@ -21,10 +21,15 @@ public class SplashScreenActivity extends ActionBarActivity {
 		
 		Thread startTimer = new Thread() {
 			public void run() {
+				LogFactory.log(DEBUG);
+
 				try {
 					sleep(5000);
 
-					Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
+					Intent intent = new Intent(
+						SplashScreenActivity.this, 
+						LoginActivity.class
+					);
 					startActivity(intent);
 					finish();
 				}
