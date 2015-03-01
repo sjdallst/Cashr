@@ -5,11 +5,11 @@ import android.support.v7.app.ActionBarActivity;
 
 import com.android.cashr.R;
 
-public class LoginActivity extends ActionBarActivity {
+public class CreateAccountActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_login);
+		setContentView(R.layout.activity_create_account);
 	}
 }
