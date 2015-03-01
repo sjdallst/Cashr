@@ -26,8 +26,17 @@
         android:drawableLeft="@drawable/ic_user"
         android:drawableStart="@drawable/ic_user"
         android:drawablePadding="10dp"
-        android:layout_marginTop="-25dp"
-        />
+        android:layout_marginTop="-25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_create_account_user_id"
+        android:hint="@string/label_user_id"
+        android:drawableLeft="@drawable/ic_user_id"
+        android:drawableStart="@drawable/ic_user_id"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="10dp"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -40,8 +49,7 @@
         android:drawableLeft="@drawable/ic_lock"
         android:drawableStart="@drawable/ic_lock"
         android:drawablePadding="10dp"
-        android:layout_marginTop="5dp"
-        />
+        android:layout_marginTop="5dp"/>
 
     <com.andexert.library.RippleView
         android:id="@+id/more"
