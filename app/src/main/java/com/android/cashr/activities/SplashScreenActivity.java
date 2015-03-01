@@ -8,7 +8,7 @@ import com.android.cashr.R;
 import com.android.cashr.factories.LogFactory;
 import com.parse.Parse;
 
-public class SplashScreenActivity extends ActionBarActivity {
+public class SplashScreenActivity extends AbstractActivity {
 	private static final boolean DEBUG = true;
 
 	@Override

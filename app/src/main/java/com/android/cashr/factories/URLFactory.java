@@ -56,4 +56,8 @@ public class URLFactory {
 	public static JSONObject getCustomerInfo(String userID) {
 		return getJSONFromURL(apiURL + "/customers/" + userID + keyURL);
 	}
+
+    public static JSONObject getCustomerAccounts(String userID) {
+        return getJSONFromURL(apiURL + "/accounts/" + userID + keyURL);
+    }
 }

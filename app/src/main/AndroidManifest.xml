@@ -33,6 +33,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.android.cashr.activities.LoginActivity" />
         </activity>
+        <activity
+            android:name=".activities.AccountsListActivity"
+            android:label="@string/title_activity_cards" >
+        </activity>
+        <activity
+            android:name=".activities.AccountActivity"
+            android:label="@string/title_activity_account" >
+        </activity>
     </application>
 
 </manifest>
