@@ -6,12 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.android.cashr.R;
+import com.android.cashr.factories.LogFactory;
 import com.gc.materialdesign.views.ButtonFlat;
 
 public class LoginActivity extends Activity {
+	private static final boolean DEBUG = true;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		LogFactory.log(DEBUG);
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 
