@@ -13,5 +13,7 @@
     <string name="label_create">Create One</string>
     <string name="label_no_account">Do not have an account?</string>
     <string name="title_activity_create_account">Create Account</string>
+    <string name="key_username">username</string>
+    <string name="key_password">password</string>
 
 </resources>

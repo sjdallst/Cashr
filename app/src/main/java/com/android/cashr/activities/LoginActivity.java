@@ -8,6 +8,7 @@ import android.view.View;
 import com.android.cashr.R;
 import com.android.cashr.factories.LogFactory;
 import com.gc.materialdesign.views.ButtonFlat;
+import com.parse.Parse;
 
 public class LoginActivity extends Activity {
 	private static final boolean DEBUG = true;

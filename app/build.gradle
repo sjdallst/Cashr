@@ -45,4 +45,6 @@ dependencies {
 //    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
 //    compile 'com.afollestad:material-dialogs:0.5.4'
 //    compile 'com.timehop.stickyheadersrecyclerview:library:0.3.4@aar'
+    compile 'com.parse.bolts:bolts-android:1.+'
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
 }
